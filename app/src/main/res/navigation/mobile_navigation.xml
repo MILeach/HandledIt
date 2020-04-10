@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_current_task">
+
+    <fragment
+        android:id="@+id/navigation_big_list"
+        android:name="com.uk.sheff.mattleach.handledit.ui.big_list.BigListFragment"
+        android:label="@string/title_big_list"
+        tools:layout="@layout/fragment_big_list" />
+
+    <fragment
+        android:id="@+id/navigation_current_task"
+        android:name="com.uk.sheff.mattleach.handledit.ui.current_task.CurrentTaskFragment"
+        android:label="@string/title_current_task"
+        tools:layout="@layout/fragment_current_task" />
+
+    <fragment
+        android:id="@+id/navigation_todays_tasks"
+        android:name="com.uk.sheff.mattleach.handledit.ui.todays_tasks.TodaysTasksFragment"
+        android:label="@string/title_todays_tasks"
+        tools:layout="@layout/fragment_todays_tasks" />
+</navigation>

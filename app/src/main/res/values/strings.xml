@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Handled It</string>
+    <string name="title_big_list">The Big List</string>
+    <string name="title_current_task">Current Task</string>
+    <string name="title_todays_tasks">Today\'s Tasks</string>
+    <string name="add_task_button_text">Add Task</string>
+</resources>
