@@ -7,6 +7,10 @@ public class HandledItTask {
         this.title = title;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
     public String getDetails() {
         return details;
     }
@@ -45,8 +49,8 @@ public class HandledItTask {
     private Date startDate;
     private Date endDate;
 
-    public HandledItTask() {
-
+    public HandledItTask(String title) {
+        this.title = title;
     }
 
     public String toString() {
