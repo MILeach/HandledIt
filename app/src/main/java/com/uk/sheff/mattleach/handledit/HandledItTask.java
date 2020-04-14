@@ -48,6 +48,9 @@ public class HandledItTask {
     private int priority;
     private Date startDate;
     private Date endDate;
+    private Boolean repeats;
+    private int repeatPeriod;
+    private int repeatUnit;
 
     public HandledItTask(String title) {
         this.title = title;
